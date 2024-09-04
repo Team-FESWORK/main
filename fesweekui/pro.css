@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#main_pro{
+    display: flex;
+    background-color: #88D66C;
+}
+#pic1{
+    margin-right: 100px;
+}
+#head{
+
+    display: flex;
+    width: 100%;
+}
+#head1, #head2, #head3{
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+#main_ti{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#search{
+    width: 100px; height: 20px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+#btn-1{
+    border: 1px solid white;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    background-color: #88D66C;
+    cursor: pointer;
+}
+#btn-2{
+    border: none;
+    color: white;
+    background-color: #88D66C;
+    cursor: pointer;
+}
+#part1{
+    color: yellow;
+    text-align: center;
+    margin-top: 50px;
+}
+#second{
+    display: flex;
+    background-color: #88D66C;
+}
+#write{
+    margin-left: 100px;
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+#promo_write{
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+#second{
+    color: white;
+    margin-bottom: 20px;
+}
+#docu{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px;
+    text-align: center;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* 필요에 따라 상단 여백 추가 */
+    margin-bottom: 50px;
+}
+#bottom-search1{
+    border: 2px solid #88D66C;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px 0px 0px 10px;
+}
+#bottom-search2{
+    border: 2px solid #88D66C;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+#underbottom{
+    display: flex;
+    background-color: #88D66C;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+#ggg{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#kkk{
+    margin-top: 28px;
+}

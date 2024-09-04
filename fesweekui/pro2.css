@@ -48,9 +48,21 @@ a{
     background-color: #88D66C;
     cursor: pointer;
 }
-
-
-
+#board2{
+    border: 1px solid;
+}
+#num{
+    width: 50px;
+}
+#title{
+    width: 400px;
+}
+#date{
+    width: 100px;
+}
+#count{
+    width:50px
+}
 
 
 
