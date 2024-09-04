@@ -1,7 +1,8 @@
-body, html {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: auto;
 }
 a{
     text-decoration-line: none;
@@ -48,22 +49,22 @@ a{
     background-color: #88D66C;
     cursor: pointer;
 }
-#board2{
-    border: 1px solid;
+.center ul{
+    position: absolute; /* 또는 fixed */
+    right: 0;
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
 }
-#num{
-    width: 50px;
+#like{
+    text-align: center;
+    cursor: pointer;
 }
-#title{
-    width: 400px;
+#like img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain; /* 이미지 비율을 유지하며 요소 내부에 맞춤 */
 }
-#date{
-    width: 100px;
-}
-#count{
-    width:50px
-}
-
 
 
 #underbottom {

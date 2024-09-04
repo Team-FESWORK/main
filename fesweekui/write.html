@@ -5,6 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>홍보글 작성</title>
     <link rel="stylesheet" href="pro3.css">
+    <style>
+        table {
+            margin: auto;
+        }
+        input[type="date"] {
+            border: 1.5px rgb(68, 136, 244) solid;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        input[type="text"] {
+            border: 1.5px rgb(68, 136, 244) solid;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        textarea {
+            border: 1.5px rgb(68, 136, 244) solid;
+            width: 500px;
+            height: 200px;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-top: 10px;
+            resize: none;
+        }
+        .header {
+            height: 30px;
+        }
+        input[type="submit"] {
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+            border: 0;
+            outline: 1.5px #88D66C solid;
+            border-radius: 5px;
+            padding-left: 10px;
+            background-color: #88D66C;
+        }
+        input[type="submit"]:active {
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+            border: 0;
+            border-radius: 5px;
+            outline: 1.5px rgb(27, 76, 155) solid;
+            padding-left: 10px;
+            background-color: rgb(16, 218, 76);
+        }
+    </style>
 </head>
 <body>
     <div id="main_pro">
@@ -12,7 +63,7 @@
             <div id="head1"><img src="img/제목 없음.png" id="pic1"></span>
                     <a href="#" id="main_ti">소개</a>
                     <a href="#" id="main_ti">축제정보</a>
-                    <a href="#" id="main_ti">축제홍보</a>
+                    <a href="/promo.html" id="main_ti">축제홍보</a>
             </div>
             <div id="head2">
                 <input type="text" name="" id="search">
@@ -21,6 +72,29 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <form action="board.html" method="post">
+            <table> 
+                <tr><td><h2>글쓰기</h2></td></tr>
+                <tr><td class="header">축제명</td></tr>
+                <tr><td><input type="text" placeholder="제목을 입력하세요" name="title" maxlength="40"></td></tr>
+                <tr><td class="header">축제기간</td></tr>
+                <tr><td><input type="date" name="title"><input type="date" name="title"></td></tr>
+                <tr><td class="header">축제장소</td></tr>
+                <tr><td><input type="text"  name="title"></td></tr>
+                <tr><td class="header">축제 개요</td></tr>
+                <tr><td><textarea placeholder="내용을 입력하세요" name="detail"></textarea></td></tr>
+                <tr><td class="header">주관</td></tr>
+                <tr><td><input type="text"  name="title"></td></tr>
+                <tr><td><input type="submit" value="등록" ></td></tr>
+            </table>
+            </form>
+    </div>
+
+
+
+
     <div id="underbottom">
         <h1 id="ggg">정보교육원 &copy;</h1>
         <h2 id="kkk">찾아오시는 길 : 니가 알아서 잘 찾아서 오세요~</h2>
